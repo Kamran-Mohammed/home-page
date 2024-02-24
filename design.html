@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<style>
+  body {
+    background-color: #f1fffa;
+  }
+  .btn {
+    font-size: 35px;
+    color: #f1fffa;
+    margin-bottom: 40px;
+    border: none;
+    background-color: #568259;
+    padding: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    justify-items: center;
+    align-items: center;
+  }
+  .wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    align-items: center;
+  }
+  .image {
+    height: 75px;
+    /* border: 2px solid black; */
+    margin-right: 10px;
+  }
+  .clearfix {
+    /* border: 2px solid black;
+    background-color: aqua; */
+    /* content: "";
+    clear: both;
+    display: table; */
+    display: flex;
+    /* align-items: center; */
+  }
+  .heading {
+    font-size: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #464e47;
+  }
+</style>
+<head>
+  <title>my page</title>
+</head>
+<body>
+  <h1 class="heading">Applications</h1>
+  <div class="wrapper">
+    <div class="clearfix">
+      <img
+        class="image"
+        src="https://png.pngtree.com/png-clipart/20230317/original/pngtree-calculator-icon-png-image_8993879.png"
+        alt=""
+      />
+      <a href="https://best-react-calculator.netlify.app/">
+        <button class="btn">calculator</button> </a
+      ><br />
+    </div>
+
+    <div class="clearfix">
+      <img
+        class="image"
+        src="https://static-00.iconduck.com/assets.00/tic-tac-toe-icon-2042x2048-uyqkbmmn.png"
+        alt=""
+      />
+      <a href="https://best-tic-tac-toe.netlify.app/">
+        <button class="btn">Tic-Tac-Toe</button> </a
+      ><br />
+    </div>
+
+    <div class="clearfix">
+      <img
+        class="image"
+        src="https://cdn-icons-png.flaticon.com/512/7050/7050554.png"
+        alt=""
+      />
+      <a href="https://best-to-do-list.netlify.app/">
+        <button class="btn">To-do List</button> </a
+      ><br />
+    </div>
+
+    <div class="clearfix">
+      <img
+        class="image"
+        src="https://cdn-icons-png.freepik.com/512/1375/1375383.png"
+        alt=""
+      />
+      <a href="https://best-bmi-calculator.netlify.app/">
+        <button class="btn">BMI calculator</button> </a
+      ><br />
+    </div>
+  </div>
+</body>
